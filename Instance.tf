@@ -12,7 +12,7 @@ resource "aws_instance" "terraform_EC2" {
   security_groups=["launch-wizard-3"]
   associate_public_ip_address = true
   key_name = "secondawsfile"
-  count = 4
+  count = 5
 
   tags = {
     Name ="Cluster"
